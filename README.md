@@ -1,4 +1,4 @@
-# Alien_Invasion_pygame
+# Alien-Invasion-Pygame
 This repository contains Alien Invasion game following Python crash course book, Still working on it....<p>
 Libraries used:
 - pygame
