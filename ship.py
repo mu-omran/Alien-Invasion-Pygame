@@ -10,7 +10,7 @@ class Ship:
         self.settings = ai_game.settings
         #loads the ship image and gets its rect.
         self.image=pygame.image.load('images/ship.bmp')
-        self.scaled_image = pygame.transform.scale_by(self.image, 0.25)
+        self.scaled_image = pygame.transform.scale_by(self.image, 0.15)
         self.rect =self.scaled_image.get_rect()
         #starts each new ship at the bottom center of the screen
         self.rect.midbottom=self.screen_rect.midbottom
